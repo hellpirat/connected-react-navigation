@@ -1,0 +1,31 @@
+{
+  "name": "connected-react-navigation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellpirat/connected-react-navigation.git"
+  },
+  "keywords": [
+    "RN",
+    "native",
+    "react",
+    "react native",
+    "react native navigation",
+    "react-navigation",
+    "react-native",
+    "react-native-navigation",
+    "rn",
+    "connected-react-navigation"
+  ],
+  "author": "Eugene Maltsev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hellpirat/connected-react-navigation/issues"
+  },
+  "homepage": "https://github.com/hellpirat/connected-react-navigation#readme"
+}
