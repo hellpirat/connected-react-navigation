@@ -1,0 +1,38 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "react-native/react-native": true
+  },
+  "plugins": ["prettier", "babel", "react", "react-native", "flowtype"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"],
+    "no-case-declarations": 0,
+    "jsx-quotes": ["error", "prefer-double"],
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "babel/new-cap": 1,
+    "babel/object-curly-spacing": ["error", "always"],
+    "babel/no-invalid-this": 1,
+    "babel/semi": 0,
+    "no-console": 0,
+    "flowtype/define-flow-type": 1,
+    "flowtype/use-flow-type": 1,
+    "arrow-body-style": "warn"
+  }
+}
