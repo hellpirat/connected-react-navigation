@@ -3,7 +3,7 @@
 import { CALL_NAVIGATION_METHOD } from './actionTypes'
 
 const updateLocation = method => {
-  return (...args: mixed) => ({
+  return (...args: Array<mixed>) => ({
     type: CALL_NAVIGATION_METHOD,
     payload: {
       method,
